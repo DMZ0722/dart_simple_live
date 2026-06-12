@@ -208,6 +208,7 @@ jobs:
         with:
           name: windows
           path: |
+            simple_live_app/build/windows/x64/runner/Release/**
             simple_live_app/build/dist/*/*.msix
             simple_live_app/build/dist/*/*.zip
         #完成
